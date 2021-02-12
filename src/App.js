@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Header from './components/Header';
 import Particles from 'react-particles-js';
 import AboutMe from './components/AboutMe'
+import Services from './components/Services'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   params={{
     particles: {
       number: {
-        value: 30,
+        value: 40,
         density: {
           enable: true,
           value_area: 900
@@ -23,7 +24,7 @@ function App() {
       shape: {
         type: "circle",
         stroke: {
-          width:6,
+          width:2,
           color: "#734f96"
         }
       }
@@ -33,6 +34,7 @@ function App() {
     <Navbar />
     <Header />
     <AboutMe />
+    <Services />
     </>
   );
 }
