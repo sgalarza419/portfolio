@@ -4,10 +4,12 @@
   --primary-white: #fff;
   --primary-lavendar: #5757b8;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .App {
@@ -49,6 +51,11 @@ body {
   }
 }
 /**********************NAVBAR************************/
+
+nav {
+  z-index: 2;
+}
+
 .logo {
   /* width: 4.7rem; */
 }
@@ -83,4 +90,86 @@ border-top: 0.1875rem solid var(--primary-lavendar)
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-lavendar)
+}
+
+@media(max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
+}
+
+/**********************HEADER************************/
+
+.header-wrapper {
+  position: relative;
+  background: url(earthbnd\ bkgrd.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-lavendar);
+  text-transform: uppercase;
+}
+
+/********************** TYPED TEXT ************************/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-lavendar);
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
+/********************** HEADER MAIN OFFER BUTTON ************************/
+.btn-main-offer {
+border: 1px solid var(--primary-red);
+text-transform: uppercase;
+border-radius: 0;
+padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+color: var(--primary-lavendar);
+margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 0.2s;
+}
+
+/********************** PARTICLES JS ************************/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display:none;
+  }
 }
