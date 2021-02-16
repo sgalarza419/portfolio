@@ -22,6 +22,7 @@ function Portfolio() {
             weather of cities from around the world. The use of multiple APIs and local storage the website
             comes alive! Try it out and check the weather in your area today.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={()=>window.open("https://sgalarza419.github.io/weatherPanel/", "_blank")}>https://sgalarza419.github.io/weatherPanel/</a>
+        <br/>
         <b>GitHub:</b> <a className="hyper-link" onClick={()=>window.open("https://github.com/sgalarza419/weatherPanel", "_blank")}>https://github.com/sgalarza419/weatherPanel</a>
         </>   
         )
@@ -46,6 +47,7 @@ function Portfolio() {
             of else if statements when selecting between multiple user input. I also learned how to change
             and impliment arrays using multiple methods.</p>
             <b>Demo:</b> <a className="hyper-link" onClick={()=>window.open("https://sgalarza419.github.io/randomPassword/", "_blank")}>https://sgalarza419.github.io/randomPassword/</a>
+            <br/>
             <b>GitHub:</b> <a className="hyper-link" onClick={()=>window.open("https://github.com/sgalarza419/randomPassword", "_blank")}>https://github.com/sgalarza419/randomPassword</a>
             </>   
             )
@@ -70,6 +72,7 @@ function Portfolio() {
             moment to change the color of a note background based on the time and local storage to keep
             daily inputs when the page is refreshed.</p>
             <b>Demo:</b> <a className="hyper-link" onClick={()=>window.open("https://sgalarza419.github.io/workCalendar/", "_blank")}>https://sgalarza419.github.io/workCalendar/</a>
+            <br/>
             <b>GitHub:</b> <a className="hyper-link" onClick={()=>window.open("https://github.com/sgalarza419/workCalendar", "_blank")}>https://github.com/sgalarza419/workCalendar</a>
             </>   
             )
@@ -93,6 +96,7 @@ function Portfolio() {
             generated. You can save your newly inspired venture for another day if the weather doesn't
             permit.</p>
             <b>Demo:</b> <a className="hyper-link" onClick={()=>window.open("https://dspark8916.github.io/Project1Group2/", "_blank")}>https://dspark8916.github.io/Project1Group2/</a>
+            <br/>
             <b>GitHub:</b> <a className="hyper-link" onClick={()=>window.open("https://github.com/dspark8916/Project1Group2", "_blank")}>https://github.com/dspark8916/Project1Group2</a>
             </>   
             )
