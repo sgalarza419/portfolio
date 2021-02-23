@@ -1,7 +1,7 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons'
-import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faDesktop, faFileCode, faMobileAlt, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
     return (
@@ -32,7 +32,7 @@ const Services = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                             <div className="circle">
-                            <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
+                            <FontAwesomeIcon className="icon" icon={faLaptopCode} size="2x" />
                             </div>
                                 <h3>Full Stack Web Development</h3>
                                 <p>Potential clients will have a fully versitle developer from backend to front end development.</p>
@@ -42,10 +42,10 @@ const Services = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                             <div className="circle">
-                            <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
+                            <FontAwesomeIcon className="icon" icon={faMobileAlt} size="2x" />
                             </div>
-                                <h3>Full Stack Web Development</h3>
-                                <p>Potential clients will have a fully versitle developer from backend to front end development.</p>
+                                <h3>Mobile Accessibility</h3>
+                                <p>Website will be designed andn accessible with phones and desktop in mind.</p>
                             </div>
                         </div>
                     </div>

@@ -13,9 +13,9 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About Me</h1>
                     <p>
-                    Steven Galarza is a web-developer in training who loves connecting with his family
+                    Steven Galarza is a Full-Stack developer loves connecting with his family
                     and friends; be it playing Dungeons & Dragons or baking bread for them.  He enjoys 
-                    learning and sharing new information with the people closest to him.  You can catch
+                    learning about new technologies and sharing the information with the people closest to him.  You can catch
                     him in the mornings preparing for a day of coding by brewing up a cup of coffee.
                     </p>
                 </div>
